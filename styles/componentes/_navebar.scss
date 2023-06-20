@@ -1,7 +1,6 @@
-@import './abstract/base';
-@import './abstract/variavei';
+@import '../abstract/variavei';
 
 .navebar{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
 }
