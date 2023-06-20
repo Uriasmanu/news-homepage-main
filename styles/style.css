@@ -1,11 +1,29 @@
 .navebar {
   display: flex;
   justify-content: space-between;
+  align-items: center;
+  margin-bottom: 5%;
+}
+.navebar .logo {
+  width: 67px;
+  height: 40px;
+}
+.navebar .menu-navebar {
+  display: flex;
+  font-family: "Inter", sans-serif;
+  justify-content: space-between;
+  width: 400px;
+}
+.navebar .menu-navebar li {
+  list-style: none;
 }
 
 * {
   padding: 0;
   margin: 0;
-  box-sizing: border-box;
   @import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;700;800&display=swap");
+}
+
+main {
+  margin: 10%;
 }/*# sourceMappingURL=style.css.map */
