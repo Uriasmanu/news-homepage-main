@@ -28,7 +28,7 @@
   color: hsl(5, 85%, 63%);
   cursor: pointer;
 }
-.navebar .banner-mobile {
+.navebar .container-img .banner-mobile {
   display: none;
 }
 
