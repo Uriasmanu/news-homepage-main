@@ -11,4 +11,10 @@ input.addEventListener('change', function(event) {
     open.style.display = 'none';
     close.style.display = 'block';
   }
+  
+  else{
+    open.style.display = 'block';
+    close.style.display = 'none';
+}
+
 });
