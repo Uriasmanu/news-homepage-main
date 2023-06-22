@@ -3,7 +3,7 @@ const open = document.getElementById('open');
 const close = document.getElementById('close');
 const container-navebar = document.querySelector('container-navebar');
 
-input.addEventListener('change', function(event) {
+input.addEventListener('click', function(event) {
   if (input.checked) {
     open.style.display = 'none';
     close.style.display = 'block';
@@ -17,7 +17,7 @@ input.addEventListener('change', function(event) {
 
 });
 
-input.addEventListener('change', function() {
+input.addEventListener('click', function() {
   if (checkbox.checked) {
     container-navebar.classList.add('animado-esquerda');
   } else {
