@@ -1,7 +1,7 @@
 const input = document.getElementById('menu-toggle');
 const open = document.getElementById('open');
 const close = document.getElementById('close');
-const container-navebar = document.querySelector('. container-navebar);
+const container-navebar = document.querySelector('container-navebar');
 
 
 input.addEventListener('click', function(event) {
