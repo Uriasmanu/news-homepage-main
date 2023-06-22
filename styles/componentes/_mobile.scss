@@ -66,17 +66,14 @@
 
         .menu-navebar li{
             list-style: none;
+            user-select: none;
     
             &:hover{
                 color: $red;
                 cursor: pointer;
             }
 
-            &:active{
-
-                color: $red;
-                cursor: pointer;
-}
+           
         }
     }
 
