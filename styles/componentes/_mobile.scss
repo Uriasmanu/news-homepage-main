@@ -25,6 +25,10 @@ left: -100%; /* Inicia o menu à esquerda */
             
         }
 
+.menu-toggle:checked ~ .navebar {
+    left: 0; /* Mostra o menu quando o toggle está marcado */
+  }
+
 
         .menu-toggle-label{
             display: flex;
