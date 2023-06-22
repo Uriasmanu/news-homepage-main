@@ -1,5 +1,5 @@
 const menu = document.getElementById('menu-toggle');
 
-menu.addEventListener('touchend', function(event) {
+menu.addEventListener('click', function(event) {
   alert("Olá, mundo!");
 });
