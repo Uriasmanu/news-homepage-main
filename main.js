@@ -7,13 +7,21 @@ input.addEventListener('change', function(event) {
   if (input.checked) {
     open.style.display = 'none';
     close.style.display = 'block';
-container-navebar.classList.add('animado-esquerda')
+
   }
   
   else{
     open.style.display = 'block';
     close.style.display = 'none';
-container-navebar.classList.remove('animado-esquerda')
 }
 
 });
+
+input.addEventListener('change', function() {
+  if (checkbox.checked) {
+    container-navebar.classList.add('animado-esquerda');
+  } else {
+    container-navebar.classList.remove('animado-esquerda');
+  }
+});
+
