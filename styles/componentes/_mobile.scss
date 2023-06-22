@@ -24,7 +24,7 @@
             
         }
 
-.menu-toggle:checked ~ .navebar {
+.menu-toggle:checked ~ .container-navebar{
     left: 0; /* Mostra o menu quando o toggle está marcado */
   }
 
