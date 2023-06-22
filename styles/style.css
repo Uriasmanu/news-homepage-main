@@ -31,9 +31,6 @@
   color: hsl(5, 85%, 63%);
   cursor: pointer;
 }
-.navebar .container-img .banner-mobile {
-  display: none;
-}
 
 * {
   padding: 0;
@@ -124,4 +121,7 @@ main {
     -o-object-position: center;
        object-position: center;
   }
+}
+.container-img .banner-mobile {
+  display: none;
 }/*# sourceMappingURL=style.css.map */
