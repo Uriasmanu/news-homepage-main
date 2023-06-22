@@ -1,4 +1,4 @@
-const menu = document.getElementById('input[type="checkbox"]');
+const menu = document.getElementById('bnt');
 
 menu.addEventListener('click', function(event) {
   alert("Olá, mundo!");
