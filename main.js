@@ -8,6 +8,6 @@ const close = document.getElementById('close');
 
 input.addEventListener('change', function(event) {
   if (input.checked) {
-    alert("Olá, mundo!");
+    open.style.display = 'none';
   }
 });
