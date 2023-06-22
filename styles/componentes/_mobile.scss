@@ -11,9 +11,8 @@
         width: 89vw;
         height: 70px;
         gap: 76%;
-left: -100%; /* Inicia o menu à esquerda */
-    transition: left 0.3s ease; /* Adiciona uma transição suave */
-  }
+
+  
     
         .logo{
             width: 47px;
@@ -56,7 +55,8 @@ left: -100%; /* Inicia o menu à esquerda */
             background: floralwhite;
             padding-left: 8%;
             padding-top: 47%;
-            
+            left: -100%; /* Inicia o menu à esquerda */
+    transition: left 0.3s ease; /* Adiciona uma transição suave */
 
             .menu-navebar{
                 display: flex;
