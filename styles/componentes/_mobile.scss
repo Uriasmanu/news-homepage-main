@@ -11,6 +11,9 @@
         width: 89vw;
         height: 70px;
         gap: 76%;
+left: -100%; /* Inicia o menu à esquerda */
+    transition: left 0.3s ease; /* Adiciona uma transição suave */
+  }
     
         .logo{
             width: 47px;
