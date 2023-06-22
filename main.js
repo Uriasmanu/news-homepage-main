@@ -9,5 +9,6 @@ const close = document.getElementById('close');
 input.addEventListener('change', function(event) {
   if (input.checked) {
     open.style.display = 'none';
+    close.style.display = 'block';
   }
 });
