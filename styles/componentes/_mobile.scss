@@ -50,13 +50,17 @@
             top: 0;
             width: 75%;
             right: 1%;
-            background: aliceblue;
+            background: floralwhite;
+            padding-left: 8%;
+            padding-top: 47%;
 
             .menu-navebar{
-            display: block;
-            
-            left: 1%;
-            font-weight: 400;
+                display: flex;
+                font-weight: 400;
+                flex-direction: column;
+                justify-content: space-between;
+                height: 230px;
+                font-weight: bold;
             }
           }
 
