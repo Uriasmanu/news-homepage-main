@@ -1,4 +1,4 @@
-const menu = document.getElementById('bnt');
+const menu = document.getElementById('menu-toggle');
 
 menu.addEventListener('click', function(event) {
   alert("Olá, mundo!");
