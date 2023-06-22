@@ -1,11 +1,15 @@
 @media only screen and (max-width: 767px) {
     
     .navebar{
+        position: fixed;
+        top: 0;
+        background: white;
         display: flex;
         justify-content: space-between;
         align-items: center;
         margin-bottom: 5%;
-        width: 48vw;
+        width: 89vw;
+        height: 70px;
         gap: 76%;
     
         .logo{
@@ -13,23 +17,49 @@
             height: 32px;
         }
 
-        .bnt-navebar-ativo{
-            display: block;
+        .menu-toggle{
+            display: none;
+            
         }
 
-        .bnt-navebar-inativo{
-            display: none;
-        }
-        
-        .menu-navebar{
-            display: none;
-            font-family: $fonte-primaria;
+
+        .menu-toggle-label{
+            display: flex;
             justify-content: space-between;
-            width: 600px;
-            font-size: 1.5rem;
-    
+             align-items: center;
+            width: 89vw;
+            gap: 76%;
         }
-    
+       
+
+        .bnt-navebar-ativo{
+            display: block;
+            width: 40px;
+            height: 30px;
+            z-index: 999;
+        }
+
+          
+          .menu-navbar li {
+            padding: 10px;
+          }
+        
+          .container-navebar{
+            height: 100vh;
+            position: fixed;
+            top: 0;
+            width: 75%;
+            right: 1%;
+            background: aliceblue;
+
+            .menu-navebar{
+            display: block;
+            
+            left: 1%;
+            font-weight: 400;
+            }
+          }
+
         .menu-navebar li{
             list-style: none;
     
