@@ -1,5 +1,8 @@
-const menu = document.getElementById('menu-toggle');
+const input = document.getElementById('menu-toggle');
 
-menu.addEventListener('click', function(event) {
-  alert("Olá, mundo!");
+input.addEventListener('click', function(event) {
+  if (event.target.tagName !== 'LI') {
+    alert("Olá, mundo!");
+  }
 });
+
