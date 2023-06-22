@@ -1,4 +1,4 @@
-const label = document.querySelector('menu-toggle');
+const label = document.getElementById('menu-toggle');
 
 label.addEventListener('click', function(event) {
   if (event.target === input) {
