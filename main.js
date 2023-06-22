@@ -1,7 +1,7 @@
-const input = document.getElementById('menu-toggle');
+const label = document.querySelector('label.menu-toggle-label');
 
-input.addEventListener('click', function(event) {
-  if (event.target.tagName !== 'li') {
+label.addEventListener('click', function(event) {
+  if (event.target === input) {
     alert("Olá, mundo!");
   }
 });
