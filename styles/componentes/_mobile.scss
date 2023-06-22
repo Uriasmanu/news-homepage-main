@@ -39,8 +39,6 @@
             z-index: 999;
         }
 
-          
-       
         
           .container-navebar{
             height: 100vh;
@@ -51,6 +49,12 @@
             background: floralwhite;
             padding-left: 8%;
             padding-top: 47%;
+            transition: transform 0.5s ease;
+
+
+.animado-esquerda {
+  transform: translateX(-100%); /* Move o elemento 100% para a esquerda */
+}
 
             .menu-navebar{
                 display: flex;
