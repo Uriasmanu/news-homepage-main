@@ -14,7 +14,7 @@ input.addEventListener('click', function(event) {
     close.style.display = 'block';
     menu.style.display = 'block';
     page.classList.add('page');
-    navebar.removeAttribute('data-nav');
+    //navebar.removeAttribute('data-nav');
   }
   
   else{
@@ -22,7 +22,7 @@ input.addEventListener('click', function(event) {
     close.style.display = 'none';
     menu.style.display = 'none';
     page.classList.remove('page');
-    navebar.setAttribute('data-nav', 'isso');
+    //navebar.setAttribute('data-nav', 'isso');
 
 }
 
