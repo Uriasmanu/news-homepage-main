@@ -1,7 +1,8 @@
 @media only screen and (max-width: 767px) {
 
   .page{
-    background: #000000a2;
+   // background: #000000a2;
+filter: brightness(150%);
 width: 100vw;
     height: 100vh;
 z-index: 998;
@@ -22,7 +23,7 @@ z-index: 998;
     width: 100vw;
     height: 70px;
     gap: 76%;
-left: 2%;
+left: 10%;
     
     .logo {
       width: 55px;
