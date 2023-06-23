@@ -72,7 +72,7 @@ main {
     padding-left: 8%;
     padding-top: 47%;
     left: -100%; /* Inicia o menu à esquerda */
-    transition: left 0.3s ease; /* Adiciona uma transição suave */
+    transition: right 0.1s ease-in-out; /* Adiciona uma transição suave */
   }
   .navebar .container-navebar .menu-navebar {
     display: flex;
@@ -99,16 +99,12 @@ main {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 89vw;
     gap: 76%;
     position: absolute;
     right: 20px;
   }
-  .navebar .menu-toggle:checked ~ .menu-toggle-label {
-    right: -20px;
-  }
   .navebar .menu-toggle:checked ~ .container-navebar {
-    left: -40%;
+    left: 30%;
   }
   .navebar .bnt-navebar-ativo {
     display: block;
