@@ -94,7 +94,12 @@ left: 10%;
     }
   } 
 
-  
+
+  .inicial{
+display: flex;
+flex-direction: column;
+
+
 
   .container-img {
     width: 89vw;
@@ -118,4 +123,5 @@ left: 10%;
   }
 }
 
+}
 }
