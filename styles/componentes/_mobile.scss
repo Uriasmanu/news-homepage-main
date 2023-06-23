@@ -1,8 +1,13 @@
-@media screen and (max-width: 767px) {
+@media only screen and (max-width: 767px) {
+
+  .page{
+    background: #000000a2;
+    z-index: 999;
+  }
+
   .navebar {
     position: fixed;
     top: 0;
-    background: white;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -12,7 +17,7 @@
     gap: 76%;
 
     .logo {
-      width: 47px;
+      width: 55px;
       height: 32px;
     }
 
@@ -73,6 +78,8 @@
       z-index: 999;
     }
   }
+
+  
 
   .container-img {
     width: 64%;
