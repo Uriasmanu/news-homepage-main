@@ -2,9 +2,13 @@
 
   .page{
     background: #000000a2;
-    z-index: 999;
   }
 
+  [data-nav]{
+    background: white;
+
+  }
+  
   .navebar {
     position: fixed;
     top: 0;
@@ -15,12 +19,12 @@
     width: 89vw;
     height: 70px;
     gap: 76%;
-
+    
     .logo {
       width: 55px;
       height: 32px;
     }
-
+  
     .container-navebar {
       height: 100vh;
       position: fixed;
@@ -32,6 +36,8 @@
       padding-top: 47%;
       left: -100%; /* Inicia o menu à esquerda */
       transition: right 0.10s ease-in-out; /* Adiciona uma transição suave */
+    z-index: 998;
+
 
       .menu-navebar {
         display: flex;
@@ -40,12 +46,14 @@
         justify-content: space-between;
         height: 230px;
         font-weight: bold;
+
       }
     }
 
     .menu-navebar li {
       list-style: none;
       user-select: none;
+
 
       &:hover {
         color: $red;
@@ -64,11 +72,13 @@
       gap: 76%;
       position: absolute;
       right: 20px;
+
     }
 
   
     .menu-toggle:checked ~ .container-navebar {
     left: 30%;
+
     }
 
     .bnt-navebar-ativo {
@@ -77,24 +87,29 @@
       height: 30px;
       z-index: 999;
     }
-  }
+  } 
 
   
 
   .container-img {
-    width: 64%;
-    height: 210px;
+    width: 89vw;
+    height: 350px;
     overflow: hidden;
-
-    .banner-desktop {
-      display: none;
-    }
-
+    
     .banner-mobile {
+      display: block;
       width: 100%;
       height: 100%;
       object-fit: cover;
       object-position: center;
     }
+    .banner-desktop {
+      display: none;
+
+      
+    }
+
+    
   }
 }
+

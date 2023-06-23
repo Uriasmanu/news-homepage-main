@@ -1,7 +1,24 @@
+@media only screen and (min-width: 767px) {
+.inicial{
+    display: flex;
+
+
+
+}
 .container-img{
 
-    .banner-mobile{
-        display: none;
+    .banner-desktop{
+
+        width: 65%;
+        height: 45vh;
+
     }
 
+    .banner-mobile{
+
+       display: none;
+
+    }
+
+}
 }
