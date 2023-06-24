@@ -59,9 +59,10 @@ main {
     justify-content: space-between;
     align-items: center;
     margin-bottom: 5%;
-    width: 89vw;
+    width: 95VW;
     height: 70px;
     gap: 76%;
+    left: 4%;
   }
   .navebar .logo {
     width: 55px;
