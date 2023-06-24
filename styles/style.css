@@ -41,33 +41,40 @@
 }
 
 main {
-  margin: 5%;
+  margin: 10%;
   width: 90vw;
+}
+main img {
+  z-index: 0;
 }
 
 @media only screen and (max-width: 767px) {
   .page {
-    background: rgba(0, 0, 0, 0.6352941176);
+    filter: brightness(50%);
+    width: 100vw;
+    height: 100vh;
+    z-index: 998;
   }
-  [data-nav] {
+  .page [data-nav] {
     background: white;
   }
-  .navebar {
+  .page .navebar {
     position: fixed;
     top: 0;
     display: flex;
     justify-content: space-between;
     align-items: center;
     margin-bottom: 5%;
-    width: 89vw;
+    width: 95VW;
     height: 70px;
     gap: 76%;
+    left: 4%;
   }
-  .navebar .logo {
+  .page .navebar .logo {
     width: 55px;
     height: 32px;
   }
-  .navebar .container-navebar {
+  .page .navebar .container-navebar {
     height: 100vh;
     position: fixed;
     top: 0;
@@ -80,7 +87,7 @@ main {
     transition: right 0.1s ease-in-out; /* Adiciona uma transição suave */
     z-index: 998;
   }
-  .navebar .container-navebar .menu-navebar {
+  .page .navebar .container-navebar .menu-navebar {
     display: flex;
     font-weight: 400;
     flex-direction: column;
@@ -88,20 +95,20 @@ main {
     height: 230px;
     font-weight: bold;
   }
-  .navebar .menu-navebar li {
+  .page .navebar .menu-navebar li {
     list-style: none;
     -webkit-user-select: none;
        -moz-user-select: none;
             user-select: none;
   }
-  .navebar .menu-navebar li:hover {
+  .page .navebar .menu-navebar li:hover {
     color: hsl(5, 85%, 63%);
     cursor: pointer;
   }
-  .navebar .menu-toggle {
+  .page .navebar .menu-toggle {
     display: none;
   }
-  .navebar .menu-toggle-label {
+  .page .navebar .menu-toggle-label {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -109,21 +116,28 @@ main {
     position: absolute;
     right: 20px;
   }
-  .navebar .menu-toggle:checked ~ .container-navebar {
+  .page .navebar .menu-toggle:checked ~ .container-navebar {
     left: 30%;
   }
-  .navebar .bnt-navebar-ativo {
+  .page .navebar .bnt-navebar-ativo {
     display: block;
     width: 35px;
     height: 30px;
     z-index: 999;
   }
-  .container-img {
+  .page .inicial {
+    display: flex;
+    flex-direction: column;
+  }
+  .page .inicial h1 {
+    font-weight: 700;
+  }
+  .page .inicial .container-img {
     width: 89vw;
     height: 350px;
     overflow: hidden;
   }
-  .container-img .banner-mobile {
+  .page .inicial .container-img .banner-mobile {
     display: block;
     width: 100%;
     height: 100%;
@@ -132,7 +146,7 @@ main {
     -o-object-position: center;
        object-position: center;
   }
-  .container-img .banner-desktop {
+  .page .inicial .container-img .banner-desktop {
     display: none;
   }
 }
