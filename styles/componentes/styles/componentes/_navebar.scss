@@ -1,0 +1,47 @@
+@import '../abstract/variavei';
+
+.navebar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 5%;
+
+    .menu-toggle{
+        display: none;
+        
+    }
+    
+    .logo{
+        width:67px;
+        height: 45px;
+    }
+
+    .bnt-navebar-ativo{
+        display: none;
+    }
+
+    .bnt-navebar-inativo{
+        display: none;
+    }
+    
+    .menu-navebar{
+        display: flex;
+        font-family: $fonte-primaria;
+        justify-content: space-between;
+        width: 600px;
+        font-size: 1.5rem;
+
+    }
+
+    .menu-navebar li{
+        list-style: none;
+
+        &:hover{
+            color: $red;
+            cursor: pointer;
+        }
+    }
+
+   
+
+}
