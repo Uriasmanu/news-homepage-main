@@ -13,17 +13,16 @@ z-index: 998;
 
   }
   
-  .navebar {
-    position: fixed;
-    top: 0;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-bottom: 5%;
-    width: 95VW;
-    height: 70px;
-    gap: 76%;
-    left: 4%;
+  position: fixed;
+  top: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 5%;
+  width: 92vw;
+  height: 70px;
+  gap: 76%;
+  left: 4%;
 
     
     .logo {
