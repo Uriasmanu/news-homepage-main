@@ -1,16 +1,26 @@
 @import '../abstract/variavei';
 
 .navebar{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-bottom: 5%;
+        /* display: flex; */
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 5%;
+        margin-left: 9%;
+        margin-right: 5%;
+        display: grid;
+        grid-template-columns: repeat(12, 1fr);
+        grid-template-columns: reapeat(12, 1fr);
+
 
     .menu-toggle{
         display: none;
         
     }
-    
+    .menu-toggle-label{
+        grid-column: 11/11;
+        margin-right: 5%;
+    }
+
     .logo{
         width:67px;
         height: 45px;

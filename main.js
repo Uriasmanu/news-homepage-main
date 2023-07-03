@@ -12,6 +12,7 @@ input.addEventListener('click', function(event) {
   if (input.checked) {
     open.style.display = 'none';
     close.style.display = 'block';
+    
     menu.style.display = 'block';
     page.classList.add('page');
     navebar.removeAttribute('data-nav');
@@ -20,6 +21,8 @@ input.addEventListener('click', function(event) {
   else{
     open.style.display = 'block';
     close.style.display = 'none';
+    
+    
     menu.style.display = 'none';
     page.classList.remove('page');
     navebar.setAttribute('data-nav', 'isso');

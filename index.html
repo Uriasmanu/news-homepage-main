@@ -18,10 +18,10 @@
 </head>
 
 <body>
+
   <nav class="navebar" id="navebar" data-nav="">
 
     <img class="logo" src="./assets/images/logo.svg" alt="logo">
-
 
     <input type="checkbox" id="menu-toggle" class="menu-toggle">
     <label for="menu-toggle" class="menu-toggle-label" id="bnt">
@@ -32,45 +32,35 @@
         style="display: none">
 
 
-
-    </label>
-
-    <div class="container-navebar" id="container">
-      <ul class="menu-navebar">
-        <li>Home</li>
-        <li>New</li>
-        <li>Popular</li>
-        <li>Trending</li>
-        <li>Categories</li>
-      </ul>
-    </div>
-
+      <div class="container-navebar" id="container">
+        <ul class="menu-navebar">
+          <li>Home</li>
+          <li>New</li>
+          <li>Popular</li>
+          <li>Trending</li>
+          <li>Categories</li>
+        </ul>
+      </div>
   </nav>
-  
+
   <div id="page">
-    <main>
 
+    <main class="principal">
 
+      <div class="container-img">
+        <img class="banner-desktop" src="./assets/images/image-web-3-desktop.jpg" alt="banner">
+        <img class="banner-mobile" id="banner-mobile" src="./assets/images/image-web-3-mobile.jpg" alt="banner">
 
-      <section class="incial">
+      </div>
 
-        <div class="container-img">
-          <img class="banner-desktop" src="./assets/images/image-web-3-desktop.jpg" alt="banner">
-          <img class="banner-mobile" src="./assets/images/image-web-3-mobile.jpg" alt="banner">
+      <section class="titulo">
+        <h1>The Bright Future of Web 3.0?</h1>
 
-        </div>
+        <p> We dive into the next evolution of the web that claims to put the power of the platforms back into the hands
+          of
+          the people. But is it really fulfilling its promise? </p>
 
-        <div>
-
-          <h1>The Bright Future of Web 3.0?</h1>
-
-          <p> We dive into the next evolution of the web that claims to put the power of the platforms back into the
-            hands
-            of
-            the people. But is it really fulfilling its promise? </p>
-
-          <button>Read more</button>
-        </div>
+        <button>Read more</button>
 
       </section>
 
@@ -97,24 +87,25 @@
 
       </section>
 
-      <section>
+      <section class="imagens">
 
+        <img src="./assets/images/image-retro-pcs.jpg" alt="image retro pcs">
         <div>
-          <img src="./assets/images/image-retro-pcs.jpg" alt="image retro pcs">
+
           <h2>01</h2>
           <h3>Reviving Retro PCs</h3>
           <p> What happens when old PCs are given modern upgrades?</p>
         </div>
 
+        <img src="./assets/images/image-top-laptops.jpg" alt="image top laptops">
         <div>
-          <img src="./assets/images/image-top-laptops.jpg" alt="image top laptops">
           <h2>02</h2>
           <h3>Top 10 Laptops of 2022</h3>
           <p>Our best picks for various needs and budgets.</p>
         </div>
 
+        <img src="./assets/images/image-gaming-growth.jpg" alt="image gaming growth">
         <div>
-          <img src="./assets/images/image-gaming-growth.jpg" alt="image gaming growth">
           <h2>03</h2>
           <h3>The Growth of Gaming</h3>
           <p>How the pandemic has sparked fresh opportunities.</p>
@@ -123,11 +114,12 @@
       </section>
     </main>
 
-    <div class="attribution">
+    <div class="attribution" style="display: none;">
       Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
       Coded by <a href="#">Manoela Urias</a>.
     </div>
   </div>
+
 </body>
 
 <script src="main.js"></script>
