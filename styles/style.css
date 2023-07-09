@@ -47,6 +47,7 @@
   margin: 0;
   @import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;700;800&display=swap");
   box-sizing: border-box;
+  font-family: "Inter", sans-serif;
 }
 
 main {
@@ -191,7 +192,7 @@ main {
   .titulo {
     margin-top: 3%;
     display: grid;
-    grid-template-columns: repeat(7, 1fr);
+    grid-template-columns: repeat(7, 115px);
     grid-template-rows: 1fr 1fr;
     grid-column: 1/9;
     grid-row: 3/3;
@@ -202,12 +203,33 @@ main {
     grid-row: 1/2;
     display: flex;
     align-items: center;
+    font-family: "Inter", sans-serif;
+    font-weight: 800;
+    font-size: 53px;
+    width: 70%;
   }
-  .titulo p {
+  .titulo .texto {
     grid-column: 5/8;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
   }
-  .titulo button {
-    grid-column: 5/7;
+  .titulo .texto p {
+    width: 340px;
+    font-size: 15px;
+    font-weight: 400;
+    color: hsl(236, 13%, 42%);
+  }
+  .titulo .texto button {
+    width: 55%;
+    height: 25%;
+    background: hsl(5, 85%, 63%);
+    color: hsl(36, 100%, 99%);
+    font-weight: bold;
+    border: solid 1px;
+    font-size: 15px;
+    letter-spacing: 5px;
+    text-transform: uppercase;
   }
   .new {
     grid-column: 8/12;
