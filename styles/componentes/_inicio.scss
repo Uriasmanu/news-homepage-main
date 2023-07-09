@@ -16,7 +16,7 @@ main{
     .banner-desktop{
 
         width: 100%;
-        height: 45vh;
+        height: 35vh;
 
     }
 
@@ -27,13 +27,13 @@ main{
 }
 
 .titulo{
-    margin-top: 3%;
     display: grid;
     grid-template-columns: repeat(14, 55px);
     grid-template-rows: 1fr 1fr;
     grid-column: 1/8;
-    grid-row: 3/3;
+    grid-row: 2/3;
     padding-right: 13%;
+    margin-top: 15%;
 
     h1{
         grid-column: 1/9;
@@ -81,20 +81,35 @@ main{
     grid-column: 7/11;
     grid-row: 1/4;
     padding-right: 5%;
-    background: $black;
+    background: hsl(240, 100%, 5%);
     margin-left: 5%;
     margin-right: 22%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-around;
 
+    .container-new{
+        margin-left: 10%;
+        position: relative;
+        top: -40px;
 
-    h2{
-        color: $orange;
-    }
-    h3{
-        color: $white;
-    }
-    p{
-        color: $dark-blue;
+        h2{
+            color: $orange;
+            font-size: 2.5rem;
+        }
+        .new-textos{
+            border-bottom: solid 2px $dark-blue;
 
+        
+            h3{
+                color: $white;
+            }
+            p{
+                color: $dark-blue;
+                margin-bottom: 12%;
+            }
+        }
     }
 }
 

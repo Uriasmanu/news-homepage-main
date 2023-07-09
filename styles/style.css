@@ -183,19 +183,19 @@ main {
   }
   .container-img .banner-desktop {
     width: 100%;
-    height: 45vh;
+    height: 35vh;
   }
   .container-img .banner-mobile {
     display: none;
   }
   .titulo {
-    margin-top: 3%;
     display: grid;
     grid-template-columns: repeat(14, 55px);
     grid-template-rows: 1fr 1fr;
     grid-column: 1/8;
-    grid-row: 3/3;
+    grid-row: 2/3;
     padding-right: 13%;
+    margin-top: 15%;
   }
   .titulo h1 {
     grid-column: 1/9;
@@ -239,15 +239,29 @@ main {
     background: hsl(240, 100%, 5%);
     margin-left: 5%;
     margin-right: 22%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-around;
   }
-  .new h2 {
+  .new .container-new {
+    margin-left: 10%;
+    position: relative;
+    top: -40px;
+  }
+  .new .container-new h2 {
     color: hsl(35, 77%, 62%);
+    font-size: 2.5rem;
   }
-  .new h3 {
+  .new .container-new .new-textos {
+    border-bottom: solid 2px hsl(236, 13%, 42%);
+  }
+  .new .container-new .new-textos h3 {
     color: hsl(36, 100%, 99%);
   }
-  .new p {
+  .new .container-new .new-textos p {
     color: hsl(236, 13%, 42%);
+    margin-bottom: 12%;
   }
   .imagens {
     margin-top: 8%;
