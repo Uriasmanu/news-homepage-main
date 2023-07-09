@@ -219,6 +219,8 @@ main {
     font-size: 15px;
     font-weight: 400;
     color: hsl(236, 13%, 42%);
+    line-height: 25px;
+    margin-top: 2px;
   }
   .titulo .texto button {
     width: 55%;
