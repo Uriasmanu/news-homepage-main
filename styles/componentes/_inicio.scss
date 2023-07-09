@@ -117,11 +117,22 @@ main{
     }
 }
 
-.imagens{
-    margin-top: 8%;
-    display: flex;
-    grid-column: 1/12;
-    grid-row: 4/4;
-}
+    .imagens{
+        display: flex;
+        grid-column: 1/12;
+        grid-row: 4/4;
+
+        .itens-imagens{
+            display: flex;
+
+            .img{
+                height: 150px;
+            }
+            .imagens-textos{
+                 width: 230px;
+
+            }
+        }
+    }
 
 }

@@ -266,9 +266,17 @@ main {
     margin-bottom: 9%;
   }
   .imagens {
-    margin-top: 8%;
     display: flex;
     grid-column: 1/12;
     grid-row: 4/4;
+  }
+  .imagens .itens-imagens {
+    display: flex;
+  }
+  .imagens .itens-imagens .img {
+    height: 150px;
+  }
+  .imagens .itens-imagens .imagens-textos {
+    width: 230px;
   }
 }/*# sourceMappingURL=style.css.map */
