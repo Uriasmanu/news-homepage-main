@@ -79,35 +79,39 @@ main{
 
 .new{
     grid-column: 7/11;
-    grid-row: 1/4;
     padding-right: 5%;
-    background: hsl(240, 100%, 5%);
+    background: $black;
     margin-left: 5%;
     margin-right: 22%;
     display: flex;
     flex-direction: column;
-    flex-wrap: wrap;
-    justify-content: space-around;
+    height: 62vh;
 
     .container-new{
         margin-left: 10%;
-        position: relative;
-        top: -40px;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        height: 64vh;
+        justify-content: space-around;
 
         h2{
             color: $orange;
             font-size: 2.5rem;
         }
         .new-textos{
+            &:nth-child(-n + 3){
             border-bottom: solid 2px $dark-blue;
-
+            }
         
             h3{
                 color: $white;
             }
             p{
                 color: $dark-blue;
-                margin-bottom: 12%;
+                margin-top: 5%;
+                margin-bottom: 9%;
+               
             }
         }
     }

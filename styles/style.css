@@ -234,26 +234,27 @@ main {
   }
   .new {
     grid-column: 7/11;
-    grid-row: 1/4;
     padding-right: 5%;
     background: hsl(240, 100%, 5%);
     margin-left: 5%;
     margin-right: 22%;
     display: flex;
     flex-direction: column;
-    flex-wrap: wrap;
-    justify-content: space-around;
+    height: 62vh;
   }
   .new .container-new {
     margin-left: 10%;
-    position: relative;
-    top: -40px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 64vh;
+    justify-content: space-around;
   }
   .new .container-new h2 {
     color: hsl(35, 77%, 62%);
     font-size: 2.5rem;
   }
-  .new .container-new .new-textos {
+  .new .container-new .new-textos:nth-child(-n+3) {
     border-bottom: solid 2px hsl(236, 13%, 42%);
   }
   .new .container-new .new-textos h3 {
@@ -261,7 +262,8 @@ main {
   }
   .new .container-new .new-textos p {
     color: hsl(236, 13%, 42%);
-    margin-bottom: 12%;
+    margin-top: 5%;
+    margin-bottom: 9%;
   }
   .imagens {
     margin-top: 8%;
