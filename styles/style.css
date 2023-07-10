@@ -49,7 +49,10 @@
   font-family: "Inter", sans-serif;
 }
 
-main {
+body {
+  margin-left: 8%;
+}
+body main {
   margin-left: 9%;
   margin-right: 9%;
   margin-top: 3%;
