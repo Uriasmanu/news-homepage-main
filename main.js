@@ -29,5 +29,11 @@ input.addEventListener('click', function(event) {
 
 });
 
+const menuItems = document.querySelectorAll('.menu-item');
 
+menuItems.forEach(function(item) {
+  item.addEventListener('click', function(event) {
+    event.stopPropagation();
+  });
+});
 
