@@ -85,6 +85,7 @@ main {
     left: -12%;
     padding-left: 2%;
     padding-right: 5%;
+    z-index: 999;
   }
   .navebar .logo {
     width: 55px;
@@ -257,6 +258,7 @@ main {
   .imagens {
     display: flex;
     flex-direction: column;
+    margin-bottom: 10%;
   }
   .imagens .itens-imagens {
     display: flex;
