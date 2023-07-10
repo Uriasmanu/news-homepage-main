@@ -4,7 +4,7 @@
         justify-content: space-between;
         align-items: center;
         margin-top: 3%;
-        margin-left: 9%;
+        margin-left: 15%;
         margin-right: 5%;
         display: grid;
         grid-template-columns: repeat(12, 1fr);
@@ -16,7 +16,7 @@
         
     }
     .menu-toggle-label{
-        grid-column: 9/10;
+        grid-column: 10/11;
         margin-right: 5%;
     }
 
