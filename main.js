@@ -6,8 +6,6 @@ const page = document.getElementById('page');
 const navebar = document.getElementById('navebar');
 
 
-
-
 input.addEventListener('click', function(event) {
   if (input.checked) {
     open.style.display = 'none';
