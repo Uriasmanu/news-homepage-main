@@ -61,7 +61,7 @@ main {
   .page {
     background: rgba(0, 0, 0, 0.3843137255);
     width: 100vw;
-    height: 100vh;
+    height: 100%;
     z-index: 998;
   }
   main {
@@ -74,18 +74,18 @@ main {
   }
   .navebar {
     position: fixed;
-    top: 0;
+    top: -13px;
     display: flex;
     justify-content: space-between;
     align-items: center;
     margin-bottom: 5%;
-    width: 100VW;
+    width: 120VW;
     height: 73px;
     gap: 76%;
-    left: -12%;
+    left: -15%;
     padding-left: 2%;
     padding-right: 5%;
-    z-index: 999;
+    z-index: 997;
   }
   .navebar .logo {
     width: 55px;
@@ -155,7 +155,7 @@ main {
     font-weight: 700;
   }
   .container-img {
-    width: 83vw;
+    width: 92vw;
     height: 286px;
     overflow: hidden;
   }
