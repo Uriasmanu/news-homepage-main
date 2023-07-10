@@ -198,24 +198,24 @@ main {
     margin-top: 15%;
   }
   .titulo h1 {
-    grid-column: 1/9;
+    grid-column: 1/8;
     grid-row: 1/2;
     display: flex;
     align-items: center;
     font-family: "Inter", sans-serif;
     font-weight: 800;
     font-size: 53px;
-    width: 70%;
+    width: 80%;
   }
   .titulo .texto {
-    grid-column: 9/14;
+    grid-column: 8/14;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
   }
   .titulo .texto p {
-    width: 290px;
-    font-size: 13px;
+    width: 340px;
+    font-size: 15px;
     font-weight: 400;
     color: hsl(236, 13%, 42%);
     line-height: 25px;
@@ -231,6 +231,10 @@ main {
     font-size: 13px;
     letter-spacing: 5px;
     text-transform: uppercase;
+  }
+  .titulo .texto button:hover {
+    cursor: pointer;
+    background: hsl(240, 100%, 5%);
   }
   .new {
     grid-column: 7/11;
@@ -260,23 +264,45 @@ main {
   .new .container-new .new-textos h3 {
     color: hsl(36, 100%, 99%);
   }
+  .new .container-new .new-textos h3:hover {
+    cursor: pointer;
+    color: hsl(35, 77%, 62%);
+  }
   .new .container-new .new-textos p {
     color: hsl(236, 13%, 42%);
     margin-top: 5%;
     margin-bottom: 9%;
+    font-size: 15px;
   }
   .imagens {
     display: flex;
-    grid-column: 1/12;
+    grid-column: 1/10;
     grid-row: 4/4;
   }
   .imagens .itens-imagens {
     display: flex;
+    margin-right: 5%;
   }
   .imagens .itens-imagens .img {
     height: 150px;
+    margin-right: 5%;
   }
   .imagens .itens-imagens .imagens-textos {
-    width: 230px;
+    width: 240px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 69%;
+  }
+  .imagens .itens-imagens .imagens-textos h2 {
+    font-size: 35px;
+    color: hsl(233, 8%, 79%);
+  }
+  .imagens .itens-imagens .imagens-textos h3:hover {
+    cursor: pointer;
+    color: hsl(5, 85%, 63%);
+  }
+  .imagens .itens-imagens .imagens-textos p {
+    color: hsl(236, 13%, 42%);
   }
 }/*# sourceMappingURL=style.css.map */
