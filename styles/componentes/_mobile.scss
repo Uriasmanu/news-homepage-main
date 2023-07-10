@@ -13,13 +13,13 @@
             width: 90vw;
         }
     [data-nav]{
-        background: white;
+        background:$white;
     
       }
 
     .navebar {
       position: fixed;
-      top: -23px;
+      top: 0;
       display: flex;
       justify-content: space-between;
       align-items: center;
@@ -27,7 +27,7 @@
       width: 100VW;
       height: 73px;
       gap: 76%;
-      left: -6%;
+      left: -12%;
       padding-left: 2%;
       padding-right: 5%;
 
@@ -139,4 +139,143 @@
         
             
           }
+          .titulo{
+            display: flex;
+            padding-right: 13%;
+            margin-top: 15%;
+            flex-direction: column;
+            width: 100vw;
+        
+            h1{
+              display: flex;
+              align-items: center;
+              font-family: "Inter", sans-serif;
+              font-weight: 800;
+              font-size: 45px;
+              width: 100%;
+            }
+        
+            .texto{
+              margin-top: 4%;
+              margin-bottom: 21%;
+              display: flex;
+              flex-direction: column;
+              justify-content: space-between;
+              height: 21vh;
+
+                
+                  p{
+                    width: 340px;
+                    font-size: 15px;
+                    font-weight: 400;
+                    color: $dark-blue;
+                    line-height: 25px;
+                    margin-top: 2px;
+                }
+                
+        
+                button{
+                  width: 52%;
+                  height: 32%;
+                  background: $red;
+                  color: $white;
+                  font-weight: bold;
+                  border: solid 1px;
+                  font-size: 13px;
+                  letter-spacing: 5px;
+                  text-transform: uppercase;
+        
+                    &:hover{
+                        cursor: pointer;
+                        background: $black;
+                    }
+                    
+                }
+            }
+            
+        }
+        
+        .new{
+          padding-right: 5%;
+          background: $black;
+          margin-right: 22%;
+          display: flex;
+          flex-direction: column;
+          height: 53vh;
+          width: 349px;
+          margin-bottom: 18%;
+        
+            .container-new{
+              margin-left: 10%;
+              display: flex;
+              flex-direction: column;
+              flex-wrap: wrap;
+              height: 53vh;
+              justify-content: space-around;
+        
+                h2{
+                    color: $orange;
+                    font-size: 2.5rem;
+                }
+                .new-textos{
+                    &:nth-child(-n + 3){
+                    border-bottom: solid 2px $dark-blue;
+                    }
+                
+                    h3{
+                        color: $white;
+                        &:hover{
+                            cursor: pointer;
+                            color: $orange;
+                        }
+                    }
+                    p{
+                        color: $dark-blue;
+                        margin-top: 5%;
+                        margin-bottom: 9%;
+                        font-size: 15px;
+                       
+                    }
+                }
+            }
+        }
+        
+            .imagens{
+              display: flex;
+              flex-direction: column;
+        
+                .itens-imagens{
+                  display: flex;
+                  margin-right: 5%;
+                  margin-bottom: 10%;
+        
+                    .img{
+                        height: 150px;
+                    margin-right: 5%;
+        
+                    }
+                    .imagens-textos{
+                        width: 240px;
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: space-evenly;
+                        height: 69%;
+        
+                         h2{
+                            font-size: 35px;
+                            color: $blue;
+        
+                         }
+                         h3{
+                            &:hover{
+                                cursor: pointer;
+                                color: $red;
+                            }
+                         }
+                         p{
+                            color: $dark-blue;
+                         }
+                    }
+                }
+            }
 }
